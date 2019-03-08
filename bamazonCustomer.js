@@ -5,12 +5,13 @@ var Table = require("cli-table");
 var connection = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: '',
+    password: 'D.town123',
     database: 'bamazon_db'
 });
 
 function firstPrompt() {
     connection.query("SELECT * FROM products", function (err, res) {
+        if (err) throw err;
         var table = new Table({
             head: ['Id', 'Product', 'Department', 'Price', 'Quantity']
         });
