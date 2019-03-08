@@ -12,7 +12,7 @@ Bamazon is a Amazon--like storefrot that uses the command line to prompt the use
    ![completed purchase screenshot](/screenshots/customer.png)
 
    1. insufficient stock
-   ![spotify-this-song screenshot](/screenshots/.png)
+   ![insufficient stock screenshot](/screenshots/lowstock.png)
 
 # Technologies Used
  * Node
